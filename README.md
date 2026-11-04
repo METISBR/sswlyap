@@ -27,7 +27,7 @@ pip install -r requirements.txt                       # or: conda env create -f 
 ## Run
 
 ```bash
-python run_table2.py --smoke    # ~15 s: 1 seed, m=3, five algorithms; run this first
+python run_table2.py --smoke    # ~30 s cold (includes JIT compile): 1 seed, m=3, five algorithms; run this first
 python run_table2.py            # Table 2 -> results/table2/
 python run_table3.py            # Table 3 -> results/table3/
 python run_table_deriv.py       # Table 1 -> results/table_deriv/  (times wall-clock: run on an idle machine)
