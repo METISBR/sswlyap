@@ -35,6 +35,9 @@ python verify_targets.py        # regenerated results vs the numbers printed in 
 python compare_archived.py      # regenerated runs vs results/paper/, seed by seed
 ```
 
+`verify_targets.py` and `compare_archived.py` read what the three table scripts
+wrote, so run those first. With no results present, `verify_targets.py` exits 1.
+
 `run_table2.py` and `run_table3.py` take `--jobs`, `--runs`, `--budget`,
 `--population`, `--objectives`, `--output`.
 

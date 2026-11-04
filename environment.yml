@@ -1,4 +1,4 @@
-name: ssw-jota-repro
+name: sswlyap
 channels:
   - conda-forge
 dependencies:

@@ -84,6 +84,9 @@ def main() -> int:
 
     for line in failures:
         print(line)
+    if checked == 0:
+        print("No results found: run run_table2.py, run_table3.py and run_table_deriv.py first.")
+        return 1
     print(f"{checked - len(failures)}/{checked} checks passed")
     return 1 if failures else 0
 
