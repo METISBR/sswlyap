@@ -1,0 +1,9 @@
+# Exact versions that produced the committed results (Python 3.12, macOS arm64, CPU).
+# pymoo 0.6.1.6 is required: SSW subclasses pymoo.core.algorithm.Algorithm and
+# pymoo 0.6.1.x calls np.row_stack, which NumPy >= 2.5 removed (pin numpy < 2.5).
+numpy==2.4.6
+scipy==1.17.1
+pymoo==0.6.1.6
+jax==0.10.2
+jaxlib==0.10.2
+joblib==1.6.0

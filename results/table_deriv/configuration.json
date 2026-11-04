@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-11-04T02:04:01.569595+00:00",
+  "python": "3.12.16 (main, Oct 25 2026, 18:24:37) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "cpu_count": 10,
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "pymoo": "0.6.1.6",
+  "jax": "0.10.2",
+  "jax_backend": "cpu",
+  "jax_devices": [
+    "cpu:0"
+  ],
+  "jax_x64_enabled": true,
+  "n_obj": 3,
+  "n_vars": [
+    12,
+    24,
+    48,
+    96,
+    192
+  ],
+  "population": 100,
+  "repetitions": 10,
+  "fd_step": 1e-06
+}
